@@ -94,3 +94,36 @@ hasCJKLanguage = false
         styleSrc = ["'self'", "'unsafe-inline'"]
         scriptSrc = ["'self'", "https://pagead2.googlesyndication.com", "https://www.googletagmanager.com"]
         imgSrc = ["'self'", "data:", "https:", "http:"]
+
+# AdSense优化配置
+[params.adsense]
+  enable = true
+  client = "ca-pub-4630162780874150"
+  autoAds = true
+  pageLevelAds = true
+  
+[params.verification]
+  google = "google-site-verification-code"  # 需要从AdSense获取
+  bing = ""
+  yandex = ""
+  
+# 结构化数据
+[params.schema]
+  enable = true
+  type = "WebSite"
+  name = "AI Gas - AI Tools Reviews, Tutorials & Guides"
+  description = "Latest AI tools reviews, tutorials and guides"
+  url = "https://aigas.top"
+  sameAs = ["https://twitter.com/aigastop"]
+  
+# 隐私和合规
+[params.privacy]
+  gdpr = true
+  ccpa = true
+  cookieConsent = true
+  
+[params.legal]
+  affiliateDisclosure = true
+  privacyPolicy = "/privacy/"
+  termsOfService = "/terms/"
+  contactPage = "/contact/"
