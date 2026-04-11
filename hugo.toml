@@ -1,0 +1,68 @@
+baseURL = "https://aigas.top/"
+languageCode = "en-us"
+title = "AI Gas - AI Tools Reviews, Tutorials & Guides"
+theme = ""
+
+# 基础配置
+paginate = 10
+enableRobotsTXT = true
+hasCJKLanguage = false
+
+[params]
+  description = "AI Gas provides the latest AI tools reviews, tutorials and guides. Stay updated with the most innovative AI technology."
+  author = "AI Gas Team"
+  keywords = ["AI tools", "AI reviews", "AI tutorials", "ChatGPT", "Claude", "Midjourney", "AI guides"]
+  
+  # 广告配置
+  enableAds = true
+  adsenseClient = "ca-pub-4630162780874150"
+  
+  # 联盟营销
+  enableAffiliate = true
+  amazonAssociatesTag = "aigas-20"
+
+[menu]
+  [[menu.main]]
+    identifier = "home"
+    name = "Home"
+    url = "/"
+    weight = 1
+
+  [[menu.main]]
+    identifier = "reviews"
+    name = "AI Tool Reviews"
+    url = "/categories/reviews/"
+    weight = 2
+
+  [[menu.main]]
+    identifier = "tutorials"
+    name = "Tutorials"
+    url = "/categories/tutorials/"
+    weight = 3
+
+  [[menu.main]]
+    identifier = "prompts"
+    name = "AI Prompts"
+    url = "/categories/prompts/"
+    weight = 4
+
+  [[menu.main]]
+    identifier = "comparisons"
+    name = "Tool Comparisons"
+    url = "/categories/comparisons/"
+    weight = 5
+
+  [[menu.main]]
+    identifier = "affiliate"
+    name = "Affiliate Tools"
+    url = "/affiliate/"
+    weight = 6
+
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    weight = 7
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]

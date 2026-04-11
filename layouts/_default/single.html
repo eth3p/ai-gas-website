@@ -1,0 +1,34 @@
+{{ define "main" }}
+    <article class="post">
+        <h1 class="post-title">{{ .Title }}</h1>
+        <div class="post-meta">
+            {{ .Date.Format "January 2, 2006" }} · {{ .ReadingTime }} min read
+            {{ if .Params.categories }}
+                · Categories: {{ range .Params.categories }}<a href="/categories/{{ . | urlize }}/">{{ . }}</a> {{ end }}
+            {{ end }}
+        </div>
+        
+        <div class="ad-container">
+            <ins class="adsbygoogle"
+                 style="display:block"
+                 data-ad-client="ca-pub-4630162780874150"
+                 data-ad-slot="1122334455"></ins>
+        </div>
+        
+        <div class="post-content">
+            {{ .Content }}
+        </div>
+        
+        {{ if .Params.affiliate }}
+            <div class="affiliate-box">
+                <h3>💎 Recommended Tool</h3>
+                <p>Check out our recommended tool for this topic:</p>
+                {{ range .Params.affiliate_links }}
+                    <a href="{{ .url }}" class="affiliate-link" target="_blank">{{ .name }} →</a>
+                    <p>{{ .description }}</p>
+                {{ end }}
+                <div class="disclosure">We may earn commission when you purchase through our links.</div>
+            </div>
+        {{ end }}
+    </article>
+{{ end }}

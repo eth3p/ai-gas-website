@@ -1,0 +1,29 @@
+{{ define "main" }}
+    <h1>{{ .Title }}</h1>
+    
+    <div class="ad-container">
+        <ins class="adsbygoogle"
+             style="display:block"
+             data-ad-client="ca-pub-4630162780874150"
+             data-ad-slot="1122334455"
+             data-ad-format="auto"
+             data-full-width-responsive="true"></ins>
+    </div>
+    
+    {{ range .Pages }}
+        <article class="post">
+            <h2 class="post-title"><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
+            <div class="post-meta">
+                {{ .Date.Format "January 2, 2006" }} · {{ .ReadingTime }} min read
+            </div>
+            <div class="post-content">
+                {{ .Summary }}
+            </div>
+            <a href="{{ .RelPermalink }}">Read more →</a>
+        </article>
+    {{ end }}
+    
+    {{ if eq .Section "affiliate" }}
+        {{ partial "affiliate.html" . }}
+    {{ end }}
+{{ end }}

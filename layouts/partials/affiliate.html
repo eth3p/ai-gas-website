@@ -1,0 +1,59 @@
+<!-- Affiliate Marketing Section -->
+{{ if .Site.Params.enableAffiliate }}
+  {{ if eq .Section "affiliate" }}
+    <div class="affiliate-box">
+      <h3>💎 Recommended AI Tools</h3>
+      <p>These are our top picks for AI tools that can boost your productivity and creativity. We may earn a commission when you purchase through our links.</p>
+      
+      <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 1rem; margin-top: 1rem;">
+        <!-- ChatGPT Plus -->
+        <div style="border: 1px solid #e0e0e0; padding: 1rem; border-radius: 8px;">
+          <h4 style="margin-top: 0;">🤖 ChatGPT Plus</h4>
+          <p>Access GPT-4, file uploads, web browsing, and advanced data analysis.</p>
+          <a href="https://chat.openai.com/chat?ref=aigas" class="affiliate-link" target="_blank">Get ChatGPT Plus →</a>
+          <div class="disclosure">We earn commission when you subscribe through our link</div>
+        </div>
+
+        <!-- Midjourney -->
+        <div style="border: 1px solid #e0e0e0; padding: 1rem; border-radius: 8px;">
+          <h4 style="margin-top: 0;">🎨 Midjourney</h4>
+          <p>Create stunning AI-generated images with the best text-to-image model.</p>
+          <a href="https://www.midjourney.com?ref=aigas" class="affiliate-link" target="_blank">Try Midjourney →</a>
+          <div class="disclosure">We earn commission when you subscribe through our link</div>
+        </div>
+
+        <!-- Claude Pro -->
+        <div style="border: 1px solid #e0e0e0; padding: 1rem; border-radius: 8px;">
+          <h4 style="margin-top: 0;">🧠 Claude Pro</h4>
+          <p>Anthropic's powerful AI assistant with 200K context window.</p>
+          <a href="https://claude.ai?ref=aigas" class="affiliate-link" target="_blank">Get Claude Pro →</a>
+          <div class="disclosure">We earn commission when you subscribe through our link</div>
+        </div>
+
+        <!-- Notion AI -->
+        <div style="border: 1px solid #e0e0e0; padding: 1rem; border-radius: 8px;">
+          <h4 style="margin-top: 0;">📝 Notion AI</h4>
+          <p>AI-powered workspace for notes, docs, and project management.</p>
+          <a href="https://www.notion.so/product/ai?ref=aigas" class="affiliate-link" target="_blank">Try Notion AI →</a>
+          <div class="disclosure">We earn commission when you subscribe through our link</div>
+        </div>
+
+        <!-- Amazon AI Books -->
+        <div style="border: 1px solid #e0e0e0; padding: 1rem; border-radius: 8px;">
+          <h4 style="margin-top: 0;">📚 AI Learning Resources</h4>
+          <p>Best books and courses to master AI and machine learning.</p>
+          <a href="https://www.amazon.com/s?k=artificial+intelligence+books&tag={{ .Site.Params.amazonAssociatesTag }}" class="affiliate-link" target="_blank">Browse AI Books →</a>
+          <div class="disclosure">We earn commission when you purchase through our Amazon link</div>
+        </div>
+
+        <!-- AI Tools Bundle -->
+        <div style="border: 1px solid #e0e0e0; padding: 1rem; border-radius: 8px;">
+          <h4 style="margin-top: 0;">🚀 AI Tools Bundle</h4>
+          <p>Curated collection of premium AI tools with exclusive discounts.</p>
+          <a href="https://www.shareasale.com/r.cfm?b=123456&u={{ .Site.Params.shareasaleAccount }}&m=12345&urllink=&afftrack=" class="affiliate-link" target="_blank">Get Bundle Discount →</a>
+          <div class="disclosure">We earn commission when you purchase through our link</div>
+        </div>
+      </div>
+    </div>
+  {{ end }}
+{{ end }}
