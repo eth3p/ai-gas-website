@@ -4,6 +4,9 @@
 /assets/jsconfig.json
 hugo_stats.json
 
+# GitHub Pages
+/.github/workflows/
+
 # OS
 .DS_Store
 Thumbs.db
