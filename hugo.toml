@@ -66,3 +66,31 @@ hasCJKLanguage = false
 
 [outputs]
   home = ["HTML", "RSS", "JSON"]
+
+# 社交媒体配置
+[social]
+  twitter = "aigastop"
+  github = "aigastop"
+  linkedin = "aigas"
+
+# 输出配置
+[outputFormats]
+  [outputFormats.JSON]
+    mediaType = "application/json"
+    baseName = "index"
+
+# 图片处理
+[imaging]
+  quality = 75
+  anchor = "smart"
+  resize = "smart"
+
+# 安全头
+[security]
+  [security.HTTP]
+    [security.HTTP.headers]
+      [security.HTTP.headers.ContentSecurityPolicy]
+        defaultSrc = ["'self'"]
+        styleSrc = ["'self'", "'unsafe-inline'"]
+        scriptSrc = ["'self'", "https://pagead2.googlesyndication.com", "https://www.googletagmanager.com"]
+        imgSrc = ["'self'", "data:", "https:", "http:"]
