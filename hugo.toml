@@ -1,7 +1,7 @@
 baseURL = "https://aigas.top/"
 languageCode = "en-us"
 title = "AI Gas - AI Tools Reviews, Tutorials & Guides"
-theme = ""
+# theme = ""  # 注释掉，使用自定义layouts
 
 # 基础配置
 paginate = 10
