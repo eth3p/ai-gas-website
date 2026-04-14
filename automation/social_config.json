@@ -1,0 +1,21 @@
+
+{
+  "platforms": {
+    "twitter": {
+      "enabled": true,
+      "posts_per_day": 3,
+      "hashtags": ["AI", "AITools", "ArtificialIntelligence", "Tech", "Innovation"]
+    },
+    "linkedin": {
+      "enabled": true,
+      "posts_per_day": 2,
+      "professional_focus": true
+    },
+    "reddit": {
+      "enabled": true,
+      "subreddits": ["artificial", "MachineLearning", "OpenAI", "ChatGPT", "midjourney"],
+      "posts_per_week": 5
+    }
+  },
+  "content_types": ["article_links", "ai_tips", "tool_comparisons", "earning_methods"]
+}

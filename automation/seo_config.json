@@ -1,0 +1,21 @@
+
+{
+  "technical_seo": {
+    "site_speed": true,
+    "mobile_friendly": true,
+    "ssl": true,
+    "xml_sitemap": true,
+    "robots_txt": true
+  },
+  "onpage_seo": {
+    "meta_titles": true,
+    "meta_descriptions": true,
+    "heading_structure": true,
+    "internal_linking": true
+  },
+  "keywords": {
+    "primary": ["ai tools", "ai工具", "ai评测", "ai教程"],
+    "secondary": ["chatgpt", "midjourney", "stable diffusion", "ai赚钱"],
+    "long_tail": ["best ai tools for beginners", "how to make money with ai"]
+  }
+}

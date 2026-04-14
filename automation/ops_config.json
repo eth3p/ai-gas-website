@@ -1,0 +1,25 @@
+
+{
+  "monitoring": {
+    "uptime": {
+      "enabled": true,
+      "check_interval": 300,
+      "alerts": ["telegram"]
+    },
+    "performance": {
+      "enabled": true,
+      "metrics": ["load_time", "ttfb", "page_size"]
+    }
+  },
+  "content": {
+    "auto_update": true,
+    "update_schedule": "daily",
+    "backup_before_update": true
+  },
+  "revenue": {
+    "track_adsense": true,
+    "track_affiliate": true,
+    "daily_report": true,
+    "report_destination": "telegram"
+  }
+}

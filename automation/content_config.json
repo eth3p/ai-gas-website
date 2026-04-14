@@ -1,0 +1,15 @@
+
+{
+  "website": "AI Gas - AI Tools Reviews",
+  "url": "https://eth3p.github.io/ai-gas-website/",
+  "daily_target": 2,
+  "article_types": [
+    "AI工具评测",
+    "AI赚钱方法", 
+    "AI视频生成对比",
+    "AI编程助手指南",
+    "AI写作工具推荐"
+  ],
+  "seo_focus": ["ai tools", "ai赚钱", "人工智能工具", "ai评测", "ai教程"],
+  "affiliate_integration": true
+}
