@@ -1,0 +1,43 @@
+{
+  "website_name": "AI Gas - AI Tools Reviews",
+  "website_url": "https://eth3p.github.io/ai-gas-website/",
+  "adsense_id": "ca-pub-4630162780874150",
+  "automation_tasks": {
+    "content_creation": {
+      "frequency": "daily",
+      "articles_per_day": 2,
+      "topics": [
+        "AI工具评测",
+        "AI赚钱方法",
+        "AI视频生成",
+        "AI编程助手"
+      ]
+    },
+    "social_media": {
+      "platforms": [
+        "Twitter/X",
+        "LinkedIn",
+        "Reddit"
+      ],
+      "posts_per_day": 3,
+      "auto_schedule": true
+    },
+    "seo_optimization": {
+      "daily_checks": true,
+      "keyword_research": true,
+      "backlink_analysis": true
+    },
+    "monetization": {
+      "adsense": true,
+      "affiliate_marketing": true,
+      "sponsored_content": false,
+      "membership": false
+    }
+  },
+  "goals": {
+    "monthly_visitors": 10000,
+    "monthly_revenue": 500,
+    "content_articles": 100,
+    "social_followers": 1000
+  }
+}
