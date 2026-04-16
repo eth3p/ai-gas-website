@@ -1,0 +1,89 @@
+{{ define "main" }}
+<div class="error-container" style="text-align: center; padding: 4rem 2rem; min-height: 50vh;">
+    <div style="max-width: 600px; margin: 0 auto;">
+        <h1 style="font-size: 6rem; font-weight: 800; color: #007bff; margin-bottom: 1rem;">404</h1>
+        <h2 style="font-size: 2rem; color: #333; margin-bottom: 1rem;">Oops! Page Not Found</h2>
+        
+        <div style="font-size: 1.2rem; color: #666; line-height: 1.8; margin: 2rem 0;">
+            <p>The page you're looking for doesn't exist or has been moved.</p>
+            <p>Don't worry though - you can explore our latest AI tools content below!</p>
+        </div>
+        
+        <!-- Navigation buttons -->
+        <div style="display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap; margin: 2rem 0;">
+            <a href="/" style="background: #007bff; color: white; padding: 0.8rem 1.5rem; border-radius: 4px; text-decoration: none; font-weight: bold; display: inline-block;">
+                ← Back to Home
+            </a>
+            <a href="/categories/reviews/" style="background: #28a745; color: white; padding: 0.8rem 1.5rem; border-radius: 4px; text-decoration: none; font-weight: bold; display: inline-block;">
+                AI Tools Reviews
+            </a>
+            <a href="/categories/tutorials/" style="background: #17a2b8; color: white; padding: 0.8rem 1.5rem; border-radius: 4px; text-decoration: none; font-weight: bold; display: inline-block;">
+                Tutorials & Guides
+            </a>
+        </div>
+        
+        <!-- Search box -->
+        <div style="margin: 3rem 0; padding: 2rem; background: #f8f9fa; border-radius: 8px;">
+            <h3 style="margin-bottom: 1rem; color: #333;">Search Our AI Tools Content</h3>
+            <form action="/search" method="GET" style="display: flex; max-width: 500px; margin: 0 auto;">
+                <input type="text" name="q" placeholder="Search AI tools, reviews, tutorials..." 
+                       style="flex: 1; padding: 0.8rem 1rem; border: 2px solid #e0e0e0; border-radius: 4px 0 0 4px; font-size: 1rem;">
+                <button type="submit" 
+                       style="background: #007bff; color: white; border: none; padding: 0.8rem 1.5rem; border-radius: 0 4px 4px 0; font-weight: bold; cursor: pointer;">
+                    Search
+                </button>
+            </form>
+        </div>
+        
+        <!-- Popular content -->
+        <div style="text-align: left; margin-top: 3rem;">
+            <h3 style="margin-bottom: 1.5rem; color: #333; border-bottom: 2px solid #eaeaea; padding-bottom: 0.5rem;">Popular AI Tools & Content</h3>
+            <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 1.5rem; margin-top: 1rem;">
+                <div style="background: white; border: 1px solid #eaeaea; border-radius: 8px; padding: 1.5rem;">
+                    <h4 style="color: #007bff; margin-bottom: 0.5rem;">ChatGPT Prompts</h4>
+                    <p style="color: #666; font-size: 0.95rem;">Master ChatGPT with our collection of powerful prompts.</p>
+                    <a href="/categories/prompts/" style="color: #007bff; text-decoration: none; font-weight: bold;">Explore →</a>
+                </div>
+                <div style="background: white; border: 1px solid #eaeaea; border-radius: 8px; padding: 1.5rem;">
+                    <h4 style="color: #007bff; margin-bottom: 0.5rem;">Midjourney Guide</h4>
+                    <p style="color: #666; font-size: 0.95rem;">Create stunning AI art with Midjourney best practices.</p>
+                    <a href="/categories/tutorials/" style="color: #007bff; text-decoration: none; font-weight: bold;">Learn →</a>
+                </div>
+                <div style="background: white; border: 1px solid #eaeaea; border-radius: 8px; padding: 1.5rem;">
+                    <h4 style="color: #007bff; margin-bottom: 0.5rem;">Claude vs ChatGPT</h4>
+                    <p style="color: #666; font-size: 0.95rem;">Detailed comparison between top AI assistants.</p>
+                    <a href="/categories/comparisons/" style="color: #007bff; text-decoration: none; font-weight: bold;">Compare →</a>
+                </div>
+            </div>
+        </div>
+        
+        <!-- AdSense ad on 404 page -->
+        <div class="ad-container" style="margin: 3rem 0;">
+            <ins class="adsbygoogle"
+                 style="display:block"
+                 data-ad-client="ca-pub-4630162780874150"
+                 data-ad-slot="404123456"
+                 data-ad-format="auto"
+                 data-full-width-responsive="true"></ins>
+            <script>
+                (adsbygoogle = window.adsbygoogle || []).push({});
+            </script>
+        </div>
+        
+        <div style="margin-top: 2rem; padding-top: 2rem; border-top: 1px solid #eaeaea; color: #999; font-size: 0.9rem;">
+            <p>If you believe this page should exist, please <a href="/contact/" style="color: #007bff;">contact us</a>.</p>
+        </div>
+    </div>
+</div>
+
+<!-- Google Analytics event for 404 page -->
+<script>
+    if (typeof gtag !== 'undefined') {
+        gtag('event', '404_error', {
+            'event_category': 'error',
+            'event_label': window.location.pathname,
+            'non_interaction': true
+        });
+    }
+</script>
+{{ end }}
