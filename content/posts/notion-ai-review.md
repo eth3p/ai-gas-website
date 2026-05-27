@@ -1,7 +1,7 @@
 ---
 title: "Notion AI Review: Revolutionizing Productivity with AI"
 date: 2026-04-11T11:00:00+00:00
-draft: false
+draft: true
 categories: ['reviews']
 tags: ['notion', 'productivity', 'ai']
 description: "Learn how to leverage AI tools for maximum impact and profitability."

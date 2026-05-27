@@ -1,215 +1,91 @@
 ---
-title: "Midjourney V6终极教程：从提示词到高级控制"
-date: 2026-04-10T20:54:20+00:00
+title: "Midjourney Prompting Guide for Consistent Visual Direction"
+date: 2026-04-11T12:00:00+00:00
 draft: false
+description: "A workflow guide for using Midjourney to create more consistent image directions, style systems, and useful variations."
 categories: ["tutorials", "reviews"]
-tags: ["midjourney", "ai-art", "image-generation", "tutorial"]
-description: "Midjourney V6带来了革命性的图像生成能力。本指南将教你如何成为Midjourney专家。"
-affiliate: true
-affiliate_links:
-  - name: "Midjourney Pro"
-    url: "https://www.midjourney.com?ref=aigas"
-    description: "Get Midjourney Pro with unlimited generations"
+tags: ["midjourney", "ai art", "image generation", "prompting"]
 ---
 
-Midjourney V6带来了革命性的图像生成能力。本指南将教你如何成为Midjourney专家。
+Midjourney is useful when you need visual exploration quickly: mood boards, campaign directions, editorial images, product concept references, and style experiments. The challenge is consistency. A beautiful first image is easy. A coherent set of images takes more control.
 
-## 🎨 快速入门
+This guide focuses on a practical workflow for getting repeatable visual direction.
 
-### 1. 加入 Midjourney
-- 访问 midjourney.com
-- 通过 Discord 使用（官方服务器或个人服务器）
-- 选择订阅计划：Basic($10)、Standard($30)、Pro($60)
+## Start with a creative brief
 
-### 2. 基本命令
-```
-/imagine prompt: 一只可爱的猫在月球上跳舞 --ar 16:9 --v 6.0
-```
+Before writing prompts, define the image job:
 
-### 3. 参数详解
-- `--ar`：宽高比（1:1, 16:9, 9:16等）
-- `--v`：模型版本（6.0, 5.2, 5.1等）
-- `--s`：风格化参数（0-1000）
-- `--q`：质量（.25, .5, 1, 2）
+- Subject: what must be visible?
+- Use: cover image, social post, concept art, product mood board, or internal reference.
+- Audience: who should understand the image?
+- Mood: calm, technical, playful, premium, documentary, surreal, or instructional.
+- Constraints: no text, no logos, simple background, specific aspect ratio, or brand colors.
 
-## 🖌️ 提示词工程
+Without a brief, prompt changes become random. With a brief, every variation can be judged against the same goal.
 
-### 1. 基础结构
-```
-[主体] + [动作] + [环境] + [风格] + [参数]
+## A useful prompt formula
+
+A strong Midjourney prompt usually combines:
+
+```text
+subject + setting + action + visual style + lighting + composition + constraints
 ```
 
-**示例：**
-```
-一位穿着太空服的宇航员在火星表面绘画，赛博朋克风格，霓虹灯光 --ar 3:2 --v 6.0 --s 750
-```
+Example:
 
-### 2. 风格关键词
-- **艺术风格**：impressionism, surrealism, cyberpunk, steampunk
-- **媒介风格**：oil painting, watercolor, digital art, charcoal sketch
-- **摄影风格**：35mm film, cinematic, portrait photography, long exposure
-- **渲染风格**：Unreal Engine 5, Octane render, Pixar animation, Studio Ghibli
-
-### 3. 高级控制
-```
---chaos 0-100      # 创意多样性
---style raw        # 更精确的提示跟随
---tile             # 无缝纹理模式
---weird 0-3000     # 非常规美学
---no people        # 排除特定元素
+```text
+an editor reviewing AI tool notes on a desk, laptop and printed drafts, natural window light, documentary photography style, clean composition, muted colors, no visible brand logos
 ```
 
-## 🎭 商业应用案例
+This is better than "AI productivity image" because it gives the model a scene, objects, light, and constraints.
 
-### 1. 品牌设计
-- **Logo设计**：生成品牌标识概念
-- **包装设计**：产品包装视觉方案
-- **品牌视觉**：统一的品牌形象系统
+## Build consistency through anchors
 
-### 2. 营销素材
-- **社交媒体**：Instagram、Facebook 广告图
-- **广告横幅**：网站和App广告素材
-- **宣传海报**：活动推广视觉设计
+To make a set feel related, keep several anchors unchanged:
 
-### 3. 产品设计
-- **概念设计**：新产品概念可视化
-- **UI/UX设计**：应用界面概念图
-- **工业设计**：产品外观设计
+- Same subject category.
+- Same lighting direction.
+- Same lens or composition language.
+- Same color range.
+- Same level of detail.
+- Same background complexity.
 
-## 💰 赚钱机会
+Then vary only one or two elements at a time. If every prompt changes subject, mood, camera, and color, the set will feel disconnected.
 
-### 1. 设计服务
-- **Logo设计**：$200-1000/个
-- **品牌视觉系统**：$1000-5000/套
-- **包装设计**：$500-3000/款
+## Variation workflow
 
-### 2. 数字产品
-- **AI艺术NFT**：$50-5000/件
-- **提示词包**：$20-200/套
-- **模板素材**：$10-100/套
+Use this loop:
 
-### 3. 教育培训
-- **Midjourney课程**：$100-500/学员
-- **一对一辅导**：$50-150/小时
-- **企业培训**：$2000-10000/场
+1. Generate a broad first set from the creative brief.
+2. Pick the direction that best fits the job, not just the prettiest image.
+3. Rewrite the prompt around the winning image's strengths.
+4. Create controlled variations by changing one variable at a time.
+5. Save the prompt pattern that produced the most usable output.
 
-### 4. 内容创作
-- **社交媒体内容**：$500-3000/月
-- **博客配图**：$20-100/张
-- **书籍插图**：$100-1000/张
+The goal is not to find a perfect prompt. The goal is to learn which prompt ingredients reliably produce the style you need.
 
-## 📈 定价策略
+## Common mistakes
 
-### 个人创作者
-| 服务类型 | 单价 | 交付时间 | 修改次数 |
-|----------|------|----------|----------|
-| 单张图片 | $20-50 | 24小时 | 2次 |
-| 系列图片 | $100-300 | 3-5天 | 3次 |
-| 定制风格 | $200-500 | 1周 | 无限 |
+The most common mistake is overloading the prompt with too many style references. Another is asking for words inside the image. Image models still struggle with exact typography, so treat generated images as visual assets and add final text in a design tool.
 
-### 企业服务
-| 项目类型 | 价格范围 | 周期 | 包含内容 |
-|----------|----------|------|----------|
-| 品牌视觉 | $3000-10000 | 2-4周 | Logo+视觉系统+指南 |
-| 营销活动 | $2000-8000 | 1-3周 | 全套营销素材 |
-| 产品设计 | $5000-20000 | 1-2月 | 概念设计+3D渲染 |
+Avoid:
 
-## 🚀 工作流程
+- Long lists of unrelated adjectives.
+- Conflicting style directions.
+- Prompts that depend on exact text rendering.
+- Brand names or logos unless you have rights and a clear reason.
+- Publishing images without checking details at full size.
 
-### 阶段1：需求分析
-1. 客户需求调研
-2. 风格参考收集
-3. 技术可行性评估
-4. 报价和合同签订
+## Review checklist
 
-### 阶段2：创意生成
-1. 提示词工程
-2. 批量生成选项
-3. 初步筛选
-4. 客户反馈收集
+Before using an image, inspect:
 
-### 阶段3：精修优化
-1. 参数微调
-2. 图像编辑处理
-3. 格式转换优化
-4. 最终交付
+- Hands, faces, objects, and background details.
+- Whether the image implies a brand or person unintentionally.
+- Whether the aspect ratio fits the final layout.
+- Whether the style matches the rest of the page.
+- Whether the image adds information or only decoration.
 
-### 阶段4：后续服务
-1. 使用指导
-2. 版权说明
-3. 修改支持
-4. 长期合作维护
+## Bottom line
 
-## 📊 成本与收益分析
-
-### 成本结构
-| 项目 | 月成本 | 说明 |
-|------|--------|------|
-| Midjourney订阅 | $10-60 | 根据计划选择 |
-| 设计软件 | $0-50 | Figma/Photoshop等 |
-| 营销推广 | $100-500 | 广告和内容营销 |
-| **总计** | **$110-610** | |
-
-### 收入预测
-| 客户类型 | 月客户数 | 平均单价 | 月收入 |
-|----------|----------|----------|--------|
-| 个人客户 | 5-10 | $150 | $750-1500 |
-| 中小企业 | 2-5 | $800 | $1600-4000 |
-| 大企业 | 0-2 | $5000 | $0-10000 |
-| **总计** | | | **$2350-15500** |
-
-### ROI计算
-- **最低情况**：$2350收入 - $610成本 = $1740利润
-- **平均情况**：$8000收入 - $300成本 = $7700利润
-- **最佳情况**：$15500收入 - $110成本 = $15390利润
-
-## 🔧 工具与资源
-
-### 必备工具
-1. **Midjourney**：核心图像生成
-2. **Upscayl**：图像放大和增强
-3. **Photoshop/GIMP**：后期编辑
-4. **Figma**：设计和排版
-
-### 学习资源
-1. **官方文档**：Midjourney Documentation
-2. **社区论坛**：Midjourney Discord
-3. **教程网站**：PromptHero, Lexica
-4. **课程平台**：Udemy, Skillshare
-
-### 自动化工具
-1. **Prompt优化器**：自动优化提示词
-2. **批量处理**：同时生成多张图片
-3. **工作流自动化**：Zapier/Make集成
-4. **API集成**：自定义应用开发
-
-## 🔮 未来趋势
-
-### 技术发展
-- 视频生成能力
-- 3D模型生成
-- 实时协作编辑
-- 个性化风格训练
-
-### 市场机会
-- 元宇宙内容创作
-- 游戏资产生成
-- 影视概念设计
-- 虚拟时尚设计
-
-### 商业策略
-1. **建立个人品牌**：成为领域专家
-2. **开发数字产品**：创建可复制的产品
-3. **建立合作伙伴关系**：与设计师、品牌合作
-4. **拓展国际市场**：服务全球客户
-
----
-
-**立即开始你的AI艺术赚钱之旅！**
-
-<div class="affiliate-box">
-<h3>💎 推荐订阅方案</h3>
-<p>对于专业创作者，我们推荐 Midjourney Pro 方案，提供无限生成和商业授权。</p>
-<a href="https://www.midjourney.com?ref=aigas" class="affiliate-link" target="_blank">👉 立即订阅 Midjourney Pro →</a>
-<div class="disclosure">通过此链接订阅，我们可能会获得佣金，支持我们持续提供专业教程。</div>
-</div>
+Midjourney is strongest as a visual direction tool. Treat prompting like art direction: define the job, keep anchors stable, vary deliberately, and finish the image outside the generator when precision matters.

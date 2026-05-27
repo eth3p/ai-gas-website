@@ -1,25 +1,18 @@
 baseURL = "https://aigas.top/"
-languageCode = "en-us"
-title = "AI Gas - AI Tools Reviews, Tutorials & Guides"
-# theme = ""  # 注释掉，使用自定义layouts
+locale = "en-US"
+title = "AI Gas"
 
-# 基础配置
 paginate = 10
-enableRobotsTXT = true
+enableRobotsTXT = false
 hasCJKLanguage = false
+disableKinds = ["taxonomy", "term"]
 
 [params]
-  description = "AI Gas provides the latest AI tools reviews, tutorials and guides. Stay updated with the most innovative AI technology."
-  author = "AI Gas Team"
+  description = "AI Gas publishes practical AI tool reviews, workflow guides, and comparison notes for people choosing software for real work."
+  author = "AI Gas Editorial Team"
   keywords = ["AI tools", "AI reviews", "AI tutorials", "ChatGPT", "Claude", "Midjourney", "AI guides"]
-  
-  # 广告配置
-  enableAds = true
-  adsenseClient = "ca-pub-4630162780874150"
-  
-  # 联盟营销
-  enableAffiliate = true
-  amazonAssociatesTag = "aigas-20"
+  enableAds = false
+  enableAffiliate = false
 
 [menu]
   [[menu.main]]
@@ -29,101 +22,50 @@ hasCJKLanguage = false
     weight = 1
 
   [[menu.main]]
-    identifier = "reviews"
-    name = "AI Tool Reviews"
-    url = "/categories/reviews/"
-    weight = 2
-
-  [[menu.main]]
-    identifier = "tutorials"
-    name = "Tutorials"
-    url = "/categories/tutorials/"
-    weight = 3
-
-  [[menu.main]]
-    identifier = "prompts"
-    name = "AI Prompts"
-    url = "/categories/prompts/"
-    weight = 4
-
-  [[menu.main]]
-    identifier = "comparisons"
-    name = "Tool Comparisons"
-    url = "/categories/comparisons/"
-    weight = 5
-
-  [[menu.main]]
-    identifier = "affiliate"
-    name = "Affiliate Tools"
-    url = "/affiliate/"
-    weight = 6
-
-  [[menu.main]]
     identifier = "about"
     name = "About"
     url = "/about/"
-    weight = 7
+    weight = 3
+
+  [[menu.main]]
+    identifier = "contact"
+    name = "Contact"
+    url = "/contact/"
+    weight = 4
 
 [outputs]
-  home = ["HTML", "RSS", "JSON"]
+  home = ["HTML", "RSS"]
 
-# 社交媒体配置
 [social]
   twitter = "aigastop"
   github = "aigastop"
   linkedin = "aigas"
 
-# 输出配置
-[outputFormats]
-  [outputFormats.JSON]
-    mediaType = "application/json"
-    baseName = "index"
-
-# 图片处理
 [imaging]
   quality = 75
   anchor = "smart"
   resize = "smart"
-
-# 安全头
-[security]
-  [security.HTTP]
-    [security.HTTP.headers]
-      [security.HTTP.headers.ContentSecurityPolicy]
-        defaultSrc = ["'self'"]
-        styleSrc = ["'self'", "'unsafe-inline'"]
-        scriptSrc = ["'self'", "https://pagead2.googlesyndication.com", "https://www.googletagmanager.com"]
-        imgSrc = ["'self'", "data:", "https:", "http:"]
-
-# AdSense优化配置
-[params.adsense]
-  enable = true
-  client = "ca-pub-4630162780874150"
-  autoAds = true
-  pageLevelAds = true
   
 [params.verification]
-  google = "google-site-verification-code"  # 需要从AdSense获取
+  google = ""
   bing = ""
   yandex = ""
   
-# 结构化数据
 [params.schema]
   enable = true
   type = "WebSite"
-  name = "AI Gas - AI Tools Reviews, Tutorials & Guides"
-  description = "Latest AI tools reviews, tutorials and guides"
+  name = "AI Gas"
+  description = "Practical AI tool reviews, tutorials, and comparison notes"
   url = "https://aigas.top"
   sameAs = ["https://twitter.com/aigastop"]
   
-# 隐私和合规
 [params.privacy]
   gdpr = true
   ccpa = true
   cookieConsent = true
   
 [params.legal]
-  affiliateDisclosure = true
+  affiliateDisclosure = false
   privacyPolicy = "/privacy/"
   termsOfService = "/terms/"
   contactPage = "/contact/"

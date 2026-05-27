@@ -1,7 +1,7 @@
 ---
 title: "ChatGPT-4.5 Features Review and Tutorial"
 date: 2026-04-13T00:00:00+00:00
-draft: false
+draft: true
 categories: ['reviews']
 tags: ['AI工具', 'ChatGPT', '教程', '评测']
 description: "Complete review and guide for AI tools including features, tutorials, and analysis."

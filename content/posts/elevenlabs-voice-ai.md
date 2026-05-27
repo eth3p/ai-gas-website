@@ -1,7 +1,7 @@
 ---
 title: "ElevenLabs Voice AI: Complete Voice Generation Guide"
 date: 2026-04-11T12:00:00+00:00
-draft: false
+draft: true
 categories: ['tutorials', 'reviews']
 tags: ['elevenlabs', 'voice', 'audio', 'ai']
 description: "Learn how to leverage AI tools for maximum impact and profitability."

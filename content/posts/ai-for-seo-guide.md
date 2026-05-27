@@ -1,7 +1,7 @@
 ---
 title: "AI for SEO: Complete Guide to Ranking with AI Tools"
 date: 2026-04-11T14:00:00+00:00
-draft: false
+draft: true
 categories: ['tutorials', 'prompts']
 tags: ['seo', 'ai', 'marketing', 'content']
 description: "Learn how to leverage AI tools for maximum impact and profitability."

@@ -1,7 +1,7 @@
 ---
 title: "Top 10 AI Video Tools 2026: From Editing to Generation"
 date: 2026-04-11T13:00:00+00:00
-draft: false
+draft: true
 categories: ['comparisons', 'reviews']
 tags: ['video', 'ai', 'editing', 'generation']
 description: "Learn how to leverage AI tools for maximum impact and profitability."

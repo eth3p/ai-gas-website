@@ -1,10 +1,11 @@
 ---
 title: "Prompts"
 date: 2026-04-12T00:10:00+00:00
-draft: false
+draft: true
 layout: "list"
+description: "Prompt examples are temporarily unpublished while AI Gas refreshes its editorial library."
 ---
 
 # Prompts
 
-Articles in the prompts category.
+This section is temporarily unpublished while the editorial library is refreshed.

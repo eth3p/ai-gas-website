@@ -3,57 +3,31 @@ title: "Privacy Policy"
 date: 2026-04-11T16:00:00+00:00
 draft: false
 layout: "single"
+description: "Privacy policy for AI Gas."
 ---
 
-# Privacy Policy
+AI Gas operates https://aigas.top. This policy explains what information may be collected when you visit the site and how it may be used.
 
-AI Gas ("we") operates https://aigas.top. This page informs you of our policies regarding data collection and use.
+## Information we collect
 
-## Data Collection
-We may collect:
-- Usage data (pages visited, time spent)
-- Cookies for analytics and ads
-- Email (if you subscribe)
+AI Gas does not require visitors to create an account. Standard web hosting logs may include information such as browser type, device type, referring page, pages visited, approximate location derived from IP address, and time of visit. If you email us, we receive the information you choose to include in that message.
 
-## Google AdSense
-We use Google AdSense for advertising. Google uses cookies to serve ads based on your visits.
+## Cookies and analytics
 
-## Affiliate Links
-We use affiliate links and may earn commissions on purchases. This doesn't affect your price.
+The site may use basic analytics or performance tools to understand which pages are visited and whether pages load correctly. These tools may use cookies or similar technologies. You can control cookies through your browser settings.
+
+## Advertising
+
+AI Gas is preparing for advertising review, but advertising code is currently disabled on the public site. If advertising is enabled in the future, this policy will be updated to describe the advertising partners and cookie choices available to visitors.
+
+## External links
+
+Articles may link to external websites, documentation, or software products. AI Gas is not responsible for the privacy practices of those third-party sites. Review their policies before sharing personal information.
+
+## Data retention
+
+Server and analytics logs are kept only as long as needed for security, debugging, and site improvement. Emails may be retained so we can respond to requests and keep a record of corrections.
 
 ## Contact
-privacy@aigas.top
-## Advertising Partners Privacy Policies
 
-You may consult this list to find the Privacy Policy for each of the advertising partners of AI Gas.
-
-Third-party ad servers or ad networks uses technologies like cookies, JavaScript, or Web Beacons that are used in their respective advertisements and links that appear on AI Gas, which are sent directly to users' browser. They automatically receive your IP address when this occurs. These technologies are used to measure the effectiveness of their advertising campaigns and/or to personalize the advertising content that you see on websites that you visit.
-
-Note that AI Gas has no access to or control over these cookies that are used by third-party advertisers.
-
-## Third Party Privacy Policies
-
-AI Gas's Privacy Policy does not apply to other advertisers or websites. Thus, we are advising you to consult the respective Privacy Policies of these third-party ad servers for more detailed information. It may include their practices and instructions about how to opt-out of certain options.
-
-You can choose to disable cookies through your individual browser options. To know more detailed information about cookie management with specific web browsers, it can be found at the browsers' respective websites.
-
-## CCPA Privacy Rights (Do Not Sell My Personal Information)
-
-Under the CCPA, among other rights, California consumers have the right to:
-- Request that a business that collects a consumer's personal data disclose the categories and specific pieces of personal data that a business has collected about consumers.
-- Request that a business delete any personal data about the consumer that a business has collected.
-- Request that a business that sells a consumer's personal data, not sell the consumer's personal data.
-
-If you make a request, we have one month to respond to you. If you would like to exercise any of these rights, please contact us.
-
-## GDPR Data Protection Rights
-
-We would like to make sure you are fully aware of all of your data protection rights. Every user is entitled to the following:
-- The right to access – You have the right to request copies of your personal data.
-- The right to rectification – You have the right to request that we correct any information you believe is inaccurate.
-- The right to erasure – You have the right to request that we erase your personal data, under certain conditions.
-- The right to restrict processing – You have the right to request that we restrict the processing of your personal data, under certain conditions.
-- The right to object to processing – You have the right to object to our processing of your personal data, under certain conditions.
-- The right to data portability – You have the right to request that we transfer the data that we have collected to another organization, or directly to you, under certain conditions.
-
-If you make a request, we have one month to respond to you. If you would like to exercise any of these rights, please contact us.
+For privacy questions, email **contact@aigas.top**.
